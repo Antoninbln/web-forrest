@@ -1,0 +1,158 @@
+/* 
+    font-family: 'Nunito Sans', sans-serif;
+*/
+
+html{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F8F9FF;
+}
+
+.flexbox-centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+.subtitle {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #AFAFAF;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+h2{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom:15px;
+    padding: 0;
+}
+
+
+
+.res {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+
+
+.res-main {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3B57FF;
+    margin-top: 15px;
+    margin-bottom:2px;
+    padding: 0;
+}
+
+.res-sub {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #E0E5FF;
+    margin-top: 2px;
+    margin-bottom:0px;
+    padding: 0;
+}
+
+
+
+p{
+    padding: 1rem 1rem;
+}
+
+/* Card */ 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 310px;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 0px #e4e7ff;
+}
+
+
+/* Button */
+
+.btn--primary {
+    background-color: #4a5fff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1rem;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pure-menu-link--shadow {
+    box-shadow: 0px 0px 12px 0px #e4e7ff;
+}
+
+.left-corner {
+
+}
+
+.right-corner {
+
+}
+
+
+
+
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+    .content-card{
+        width: 85%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+}
+
