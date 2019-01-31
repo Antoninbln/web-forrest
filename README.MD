@@ -22,3 +22,6 @@ Installer les dépendances.
 
 Après l'installation d'un module.
 `pip freeze > requirements.txt`
+
+Pour lancer le serveur Flask:
+`python run.py`
