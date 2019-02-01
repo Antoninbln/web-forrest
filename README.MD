@@ -66,6 +66,4 @@ my_attribut
 
 my_method
 
-
-
 ```
