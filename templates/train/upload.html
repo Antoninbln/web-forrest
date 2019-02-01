@@ -1,13 +1,16 @@
 
 {% extends "_layouts/base.html" %}
 
+{# block title}Upload CSV{# endblock #}
+
 {% block body %}
 <div class="content-card">
     <h2>Upload dataset (.csv)</h2>
-    <form action="{{ url_for('train_configure') }}">
+    <form action="{{ url_for('train_upload') }}" method="POST" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
         <div class="pure-control-group">
             <label for="foo">Select your dataset file CSV</label>
-            <input id="dataset" type="file" placeholder="Enter something here...">
+            {{ form.dataset() }}
         </div>
         <input type="submit" class="btn--primary btn--center" value="Upload"/>
     </form>    
