@@ -34,11 +34,12 @@ def open_dataset(filepath):
 
 # TEST
 
-PATH_TO_FILE = "data/dataset.csv"
+PATH_TO_FILE = "../data/dataset.csv"
 
-open_dataset(PATH_TO_FILE).head(5)
+res = open_dataset(PATH_TO_FILE)
+print(res)
 
-print(open_data)
+#print(open_data)
 
 
 # END TEST
