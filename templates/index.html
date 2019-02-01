@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RunForest</title>
+  <!-- Compiled and minified CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+</head>
+<body>
+    <main class="home-container flexbox-centering">
+        <h1 class="home-title">RunForest</h1>
+        <p>L'application de train trop badass !</p>
+        <a href="{{ url_for('train_upload') }}" class="btn--primary">Commencer !</a>
+    </main>
+</body>
