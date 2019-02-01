@@ -13,7 +13,7 @@ Windows (dans le CMD) : `Disk:\\path\to\wrf-venv\Scripts\activate`
 
 MacOs :
 ```
-$ source venv/bin/activate
+$ source name_of_your_venv/bin/activate
 $ deactivate
 ```
 
@@ -25,3 +25,45 @@ Après l'installation d'un module.
 
 Pour lancer le serveur Flask:
 `python run.py`
+
+## Writing rules
+
+```python
+
+# package
+
+my_package
+
+# variable
+
+my_var
+
+# globals
+
+my_globals
+
+# constant
+
+MYCONSTANT
+
+# function
+
+my_function()
+
+# class
+
+MyClass
+
+# instance
+
+my_instance
+
+# attribut
+
+my_attribut
+
+# methode
+
+my_method
+
+```
